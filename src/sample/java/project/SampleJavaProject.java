@@ -62,6 +62,7 @@ public class SampleJavaProject implements Runnable {
     public final void sayHello() {
         System.out.printf("Hello, %s!%n", name);
         System.out.println(" Adding for demonstration of Pull Request from Git CLI");
+	System.out.println("Adding to demonstrate Push Request from Git CLI to GitHub");
     }
 
     @Override
